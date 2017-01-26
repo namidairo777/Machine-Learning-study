@@ -1,19 +1,19 @@
-# KNN study note
+## KNN study note
 
-Pick the tabel which is of highest frequence<b/>
+Pick the tabel which is of highest frequence <b/>
 from K nearest  neighbors 
 
-# file to matrix
+## File to matrix
 listdir
 
-# Distance metric:
+## Distance metric:
 1. euclidean distance
 ...
 
-# Normalization
+## Normalization
 norm = value / (minValue - maxValue)
 
-# Pros and cons
+## Pros and cons
 Pros: <b/>
 - Simple to implement<b/>
 - Flexible to feature / distance choices<b/>
@@ -24,3 +24,7 @@ Cons:<b/>
 - Large search problem to find nearest neighbors<b/>
 - Storage of data<b/>
 - Meaningful distance function<b/>
+- Computational cost, space cost too high<b/>
+
+## Suitable data
+Numeric and Nominal type data

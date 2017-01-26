@@ -1,3 +1,8 @@
+'''
+2017.1.24
+k-nearest neighbor
+'''
+
 from numpy import *
 from os import listdir
 import operator
